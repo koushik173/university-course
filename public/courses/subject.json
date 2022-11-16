@@ -1,0 +1,119 @@
+[
+    {
+        "id": "jnsa",
+        "subjectName": "Introduction to Computing",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/IntroductionToComputing.png"
+    },
+    {
+        "id": "jnsas",
+        "subjectName": " Discrete Computational Structures",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/discretemathematics.png"
+ 
+    },
+    {
+        "id": "jnsassd",
+        "subjectName": "Data Structures and Algorithms",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/DataStructuresAlgorithms.png"
+    },
+    {
+        "id": "jnsass",
+        "subjectName": "Introduction to Database Systems",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/IntroductiontoDatabaseSystems.png"
+ 
+    },{
+        "id": "jnsdaa",
+        "subjectName": "Analysis of Algorithms",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/AnalysisofAlgorithms.png"
+    },
+    {
+        "id": "jnsasrtgr",
+        "subjectName": "Operating Systems",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/OperatingSystems.png"
+
+    },
+    {
+        "id": "jawergnsa",
+        "subjectName": "Computer Organization",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/ComputerOrganization.png"
+
+    },
+    {
+        "id": "jnsagz",
+        "subjectName": "Theory of Computation",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/TheoryofComputation.png"
+
+    },
+    {
+        "id": "jnsfsfsa",
+        "subjectName": "Compiler Design",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/CompilerDesign.png"
+
+    },
+    {
+        "id": "jssdnsa",
+        "subjectName": "Introduction to Robotics",
+        "Instructor" : "Murat Ozyurt",
+        "Schedule" : "Every Friday 9pm",
+        "year" : 2022,
+        "Semester" : "1th",
+        "Credit": 3,
+        "seatAvailable": 50,
+        "img": "./images/IntroductiontoRobotics.png"
+
+    }
+    
+]

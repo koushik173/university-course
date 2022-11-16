@@ -1,0 +1,23 @@
+.cartItems{
+    display: flex;
+    /* background-color: antiquewhite; */
+    margin-bottom: 5px;
+    
+    
+}
+.cartItems img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.cartItems p{
+    margin: 15px 5px;
+    font-size: 12px;
+}
+.cartItems button{
+    background:none;
+    border: none ;
+    cursor: pointer;
+    margin-left: 20px;
+}

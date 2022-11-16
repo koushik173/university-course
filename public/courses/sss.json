@@ -1,0 +1,341 @@
+[
+    {
+        "professors":[
+            {
+                "name":"Greg Kinzer",
+                "email":"gkinzer@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40005,
+        "capacity":30,
+        "seatsUsed":11,
+        "instructorConsentRequired":false,
+        "reqCode":"HU AM",
+        "departmentCode":"AMST",
+        "courseNumber":231,
+        "section":"A",
+        "isLab":false,
+        "name":"Intro to American Studies",
+        "detailsLinkId":"SEC_SHORT_TITLE_1",
+        "room":"AD   206",
+        "description":"An exploration of the interdisciplinary field of American Studies through a rich array of materials, themes and approaches from many disciplines, including American literature, visual studies, popular culture, border studies, and ethnic studies, among others. The course examines key debates and social movements in American culture from a variety of these approaches in order to gain a deeper - and more inclusive - understanding of the richness and diversity of American experience. (Offered on an occasional basis)Formerly AMST 31",
+        "comments":"",
+        "schedules":["MW    01:30PM 02:50PM"],
+        "textbooksParsed":false,
+        "price" : "300"
+    },
+    {
+        "professors":[
+            {
+                "name":"Brian A. Watkins",
+                "email":"bawatkins@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40010,
+        "capacity":30,
+        "seatsUsed":29,
+        "instructorConsentRequired":false,
+        "reqCode":"SS GN SW LA",
+        "departmentCode":"ANTH",
+        "courseNumber":123,
+        "section":"A",
+        "isLab":false,
+        "name":"Cultural Anthropology",
+        "detailsLinkId":"SEC_SHORT_TITLE_2",
+        "room":"HC   113",
+        "description":"An introduction to the discipline of cultural anthropology. Explores concepts, theories, methods of research, and the historical development of the discipline. A comparative exploration of various societies around the world offers insights on family and kinship, inequality and power, religious beliefs and values, economics, environment and technology, gender relations, and contemporary issues facing societies and communities today. Examines cultural change and the impact of industrialized societies and global forces on traditional societies. (Each fall and spring)Formerly ANTH 23",
+        "comments":"",
+        "schedules":["MWF   10:00AM 10:50AM"],
+        "textbooksParsed":false,
+        "price" : "356"
+    },
+    {
+        "professors":[
+            {
+                "name":"Brian A. Watkins",
+                "email":"bawatkins@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40012,
+        "capacity":30,
+        "seatsUsed":25,
+        "instructorConsentRequired":false,
+        "reqCode":"SS GN SW LA",
+        "departmentCode":"ANTH",
+        "courseNumber":123,
+        "section":"B",
+        "isLab":false,
+        "name":"Cultural Anthropology",
+        "detailsLinkId":"SEC_SHORT_TITLE_3",
+        "room":"HC   9",
+        "description":"An introduction to the discipline of cultural anthropology. Explores concepts, theories, methods of research, and the historical development of the discipline. A comparative exploration of various societies around the world offers insights on family and kinship, inequality and power, religious beliefs and values, economics, environment and technology, gender relations, and contemporary issues facing societies and communities today. Examines cultural change and the impact of industrialized societies and global forces on traditional societies. (Each fall and spring)Formerly ANTH 23",
+        "comments":"",
+        "schedules":["MWF   11:00AM 11:50AM"],
+        "textbooksParsed":false,
+        "price" : "360"
+    },
+    {
+        "professors":[
+            {
+                "name":"Brian A. Watkins",
+                "email":"bawatkins@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40013,
+        "capacity":25,
+        "seatsUsed":15,
+        "instructorConsentRequired":false,
+        "reqCode":"SS",
+        "departmentCode":"ANTH",
+        "courseNumber":250,
+        "section":"A",
+        "isLab":false,
+        "name":"Human Rights",
+        "detailsLinkId":"SEC_SHORT_TITLE_4",
+        "room":"HC   210",
+        "description":"This course examines the ways that anthropological knowledge and an anthropological perspective bear on current debates about human rights.  The course will explore the emergence of human rights policies within the specific legal, social and cultural contexts that produced it.  We will inspect the production of primary human rights documents and key human rights institutions, and will examine some of the most important epistemological and anthropological questions raised by human rights policies such as universalism vs. relativism, globalization and human rights, state sovereignty and state terror, indigenous rights, gender and human rights, and similar issues.",
+        "comments":"",
+        "schedules":["TTH   01:30PM 02:50PM"],
+        "textbooksParsed":false,
+        "price" : "305"
+    },
+    {
+        "professors":[
+            {
+                "name":"Jennifer M. Randles",
+                "email":"jrandles@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40014,
+        "capacity":25,
+        "seatsUsed":10,
+        "instructorConsentRequired":false,
+        "reqCode":"SS SW CSP AM",
+        "departmentCode":"ANTH",
+        "courseNumber":365,
+        "section":"A",
+        "isLab":false,
+        "name":"Race and Ethnic Relations",
+        "detailsLinkId":"SEC_SHORT_TITLE_5",
+        "room":"HC   210",
+        "description":"A comprehensive examination of race and ethnicity as central categories of social experience. Topics include people\u0027s identities and the inequalities they experience, especially as these are perpetuated within the family, education, religion, and other social institutions in society. The analysis integrates several sociological and anthropological approaches. Particular attention is paid to the Hispanic/Latino experience in the United States. Prerequisite: Sociology 101 or Anthropology 123 and another anthropology or sociology course, or permission of instructor. (Fall 2009) Formerly ANTH 65",
+        "comments":"PREQ: SOC*101 or  ANTH*123 \u0026 1 additional SOC or ANTH course or Instructor Permission ",
+        "schedules":["MW    01:30PM 02:50PM"],
+        "textbooksParsed":false,
+        "price" : "265"
+    },
+    {
+        "professors":[
+            {
+                "name":"Mark Smith",
+                "email":"msmith@austincollege.edu"
+            }
+        ],
+        "open":false,
+        "zap":40020,
+        "capacity":22,
+        "seatsUsed":26,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":113,
+        "section":"A",
+        "isLab":false,
+        "name":"Art Fundamentals",
+        "detailsLinkId":"SEC_SHORT_TITLE_6",
+        "room":"FGA  210",
+        "description":"Basic studio course in art, providing introductory experiences in design and art theory. (Each fall and spring)Formerly ART 13",
+        "comments":"",
+        "schedules":["MWF   01:30PM 02:50PM"],
+        "textbooksParsed":false,
+        "price" : "295"
+    },
+    {
+        "professors":[
+            {
+                "name":"Katherine Taylor",
+                "email":"kattaylor@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40021,
+        "capacity":22,
+        "seatsUsed":19,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":113,
+        "section":"B",
+        "isLab":false,
+        "name":"Art Fundamentals",
+        "detailsLinkId":"SEC_SHORT_TITLE_7",
+        "room":"FGA  210",
+        "description":"Basic studio course in art, providing introductory experiences in design and art theory. (Each fall and spring)Formerly ART 13",
+        "comments":"",
+        "schedules":["TTH   09:00AM 10:50AM"],
+        "textbooksParsed":false,
+        "price" : "426"
+    },
+    {
+        "professors":[
+            {
+                "name":"Mark Smith",
+                "email":"msmith@austincollege.edu"
+            }
+        ],
+        "open":false,
+        "zap":40023,
+        "capacity":17,
+        "seatsUsed":18,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":114,
+        "section":"A",
+        "isLab":false,
+        "name":"Drawing",
+        "detailsLinkId":"SEC_SHORT_TITLE_8",
+        "room":"FGA  211",
+        "description":"Beginning work in drawing. (Each fall and spring)Formerly ART 14",
+        "comments":"",
+        "schedules":["MWF   03:00PM 04:20PM"],
+        "textbooksParsed":false,
+        "price" : "652"
+    },
+    {
+        "professors":[
+            {
+                "name":"Mark Smith",
+                "email":"msmith@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40024,
+        "capacity":13,
+        "seatsUsed":12,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":251,
+        "section":"A",
+        "isLab":false,
+        "name":"Painting",
+        "detailsLinkId":"SEC_SHORT_TITLE_9",
+        "room":"FGA  214",
+        "description":"Basic studio practice with various subject matter, techniques, and approaches. Prerequisite: Art 113 or permission of instructor, Art 114 preferred. (Each fall)Formerly ART 51",
+        "comments":"PREQ: ART*113 or  ART*114 ",
+        "schedules":["TTH   01:30PM 04:20PM"],
+        "textbooksParsed":false,
+        "price" : "364"
+    },
+    {
+        "professors":[
+            {
+                "name":"Katherine Taylor",
+                "email":"kattaylor@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40025,
+        "capacity":16,
+        "seatsUsed":15,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":255,
+        "section":"A",
+        "isLab":false,
+        "name":"Ceramics",
+        "detailsLinkId":"SEC_SHORT_TITLE_10",
+        "room":"FAC  136",
+        "description":"Basic experience in the designing, shaping, firing, and glazing of ceramic ware. Prerequisite: Art 113 or 114. (Each fall)Formerly ART 55",
+        "comments":"PREQ: ART*113 or ART*114 or Instructor Permission ",
+        "schedules":["TTH   01:30PM 04:20PM"],
+        "textbooksParsed":false,
+        "price" : "254"
+    },
+    {
+        "professors":[
+            {
+                "name":"Tim Tracz",
+                "email":"ttracz@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40026,
+        "capacity":16,
+        "seatsUsed":11,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":256,
+        "section":"A",
+        "isLab":false,
+        "name":"Photography",
+        "detailsLinkId":"SEC_SHORT_TITLE_11",
+        "room":"FGA  111",
+        "description":"Basic experience in photography as a medium of creative visual experience. Prerequisite: Art 113 or 114. (Each fall and/or spring)Formerly ART 56",
+        "comments":"PREQ: ART*113  or ART*114 ",
+        "schedules":["TTH   01:30PM 04:20PM"],
+        "textbooksParsed":false,
+        "price" : "432"
+    },
+    {
+        "professors":[
+            {
+                "name":"Tim Tracz",
+                "email":"ttracz@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40027,
+        "capacity":10,
+        "seatsUsed":7,
+        "instructorConsentRequired":false,
+        "reqCode":"HU",
+        "departmentCode":"ART",
+        "courseNumber":357,
+        "section":"A",
+        "isLab":false,
+        "name":"Digital Imaging",
+        "detailsLinkId":"SEC_SHORT_TITLE_12",
+        "room":"FGA  113",
+        "description":"Introduction to the computer as a tool in art making. Prerequisite: 2 studio art classes. (Each fall and/or spring)",
+        "comments":"PREQ: 2 Studio art courses or Instructor Permission ",
+        "schedules":["MW    01:30PM 04:20PM"],
+        "textbooksParsed":false,
+        "price" : "309"
+    },
+    {
+        "professors":[
+            {
+                "name":"Tim Tracz",
+                "email":"ttracz@austincollege.edu"
+            }
+        ],
+        "open":true,
+        "zap":40028,
+        "capacity":25,
+        "seatsUsed":8,
+        "instructorConsentRequired":false,
+        "reqCode":"",
+        "departmentCode":"ART",
+        "courseNumber":495,
+        "section":"A",
+        "isLab":false,
+        "name":"Senior Conference",
+        "detailsLinkId":"SEC_SHORT_TITLE_13",
+        "room":"FGA  113",
+        "description":"A thesis or final project in art history, art education, or studio art. Fractional or full course credit unit. (Each fall and spring)Formerly ART 99",
+        "comments":"PREQ: Senior Art Major/Minor or Instructor Permission ",
+        "schedules":["TBA   TBA            "],
+        "textbooksParsed":false,
+        "price" : "532"
+    }
+    
+]

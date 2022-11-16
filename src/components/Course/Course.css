@@ -1,0 +1,40 @@
+.courseContainer{
+    display: flex;
+    background-color: #87d0ea;
+    border-radius: 5px;
+    height: 260px;
+    width: 500px;
+    
+}
+.courseContainer:hover{
+    background-color: #58c2e8;
+}
+
+.courseImg img{
+    width: 200px;
+    height: 260px;
+}
+.courseDetail{
+    margin-left: 20px;
+}
+.courseDetail p {
+    margin: 1px;
+    color: rgb(42, 41, 43);
+    font-size: 15px;
+}
+.courseDetail button{
+    
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: rgb(215, 187, 152);
+}
+.courseDetail button:hover{
+    background-color: rgb(213, 141, 54);
+}

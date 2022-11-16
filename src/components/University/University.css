@@ -1,0 +1,18 @@
+.university-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: rgb(235, 232, 238);
+}
+
+.course-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    
+}
+.cartContainer{
+    background-color: #81b8f2;
+}
+.cartContainer:hover{
+    background-color: #77b1ee;
+}
