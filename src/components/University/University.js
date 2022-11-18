@@ -11,6 +11,7 @@ import './University.css';
 const University = () => {
     const [course, setCourse]= useState([])
     const [cart, setCart]= useState([])
+    const [rCart, setRCart] = useState([])
 
     useEffect(()=>{
         fetch('courses/subject.json')
@@ -75,6 +76,12 @@ const University = () => {
             removeFromDb(selectedCourse.id)
         }
     }
+    const handleCartBestSelect =()=>{
+        // const len = cart.length;
+        // setCart(Math.floor(Math.random()*len));
+        // console.log("Best select");
+        
+    }
 
 
 
@@ -91,6 +98,7 @@ const University = () => {
                 cart = {cart} 
                 handleCartDel={handleCartDel} 
                 handleCartCLearAll={handleCartCLearAll}
+                handleCartBestSelect ={handleCartBestSelect}
                 ></Cart>
             </div>
             <ToastContainer />

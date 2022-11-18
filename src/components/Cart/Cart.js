@@ -6,6 +6,7 @@ const Cart = (props) => {
     const cart = props.cart;
     const handleCartCLearAll = props.handleCartCLearAll
     const handleCartDel = props.handleCartDel
+    const handleCartBestSelect =props.handleCartBestSelect
  
 
     return (
@@ -21,7 +22,7 @@ const Cart = (props) => {
                     ></CartItems>)
             }
             <button onClick={handleCartCLearAll} className='cartBtnClear'>Clear All</button>
-            <button className='cartBtnClear'>Best Select</button>
+            <button onClick={handleCartBestSelect} className='cartBtnClear'>Best Select</button>
         </div>
     );
 };
