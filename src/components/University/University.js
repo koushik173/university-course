@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb, getStoredCart } from '../../utilities/fakedb';
+import { addToDb, deleteShoppingCart, getStoredCart } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Course from '../Course/Course';
 import './University.css';
@@ -35,14 +35,21 @@ const University = () => {
         if(!exists){
              //selecTedCourse.quantity =1;
              newCart = [...cart ,selecTedCourse]
-
+             setCart(newCart)
+             addToDb(selecTedCourse.id);
         }else{
             const rest = cart.filter(course=>course.id !== selecTedCourse.id);
             //exists.quantity = exists.quantity+1;
             //newCart = [exists,...rest];
         }
-        setCart(newCart)
-        addToDb(selecTedCourse.id);
+        
+    }
+    const handleCartCLearAll =()=>{
+        setCart([])
+        deleteShoppingCart()
+    }
+    const handleCartDel =()=>{
+        
     }
 
 
@@ -57,7 +64,7 @@ const University = () => {
             </div>
 
             <div className='cartContainer'>
-                <Cart cart = {cart}></Cart>
+                <Cart cart = {cart} handleCartCLearAll={handleCartCLearAll}></Cart>
             </div>
             
         </div>

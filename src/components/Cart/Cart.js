@@ -4,16 +4,19 @@ import './Cart.css'
 
 const Cart = (props) => {
     const cart = props.cart;
+    const handleCartCLearAll = props.handleCartCLearAll
  
 
     return (
         <div className='cartDetails'>
             <h2>Added Course List: </h2>
-            <p>Total Order: {cart.length}</p>
+            <p>Total Course: {cart.length}</p>
+            <p>Total Credit: {cart.length*3} </p>
             {
                 cart.map(ct=> <CartItems key={ct.id} cartItems={ct}></CartItems>)
             }
-            
+            <button onClick={handleCartCLearAll} className='cartBtnClear'>Clear All</button>
+            <button className='cartBtnClear'>Best Select</button>
         </div>
     );
 };
