@@ -3,7 +3,8 @@
     background-color: #87d0ea;
     border-radius: 5px;
     height: 260px;
-    width: 500px;
+    width: 490px;
+    margin: 20px;
     
 }
 .courseContainer:hover{
@@ -15,7 +16,7 @@
     height: 260px;
 }
 .courseDetail{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .courseDetail p {
     margin: 1px;

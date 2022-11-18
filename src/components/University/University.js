@@ -1,8 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb, deleteShoppingCart, getStoredCart } from '../../utilities/fakedb';
+import { ToastContainer,toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import { addToDb, deleteShoppingCart, getStoredCart, removeFromDb } from '../../utilities/fakedb';
 import Cart from '../Cart/Cart';
 import Course from '../Course/Course';
 import './University.css';
+
 
 const University = () => {
     const [course, setCourse]= useState([])
@@ -31,6 +35,7 @@ const University = () => {
 
     const handleAddCart= (selecTedCourse)=>{
         let newCart =[]
+       if(cart.length<4){
         const exists = cart.find(course => course.id===selecTedCourse.id)
         if(!exists){
              //selecTedCourse.quantity =1;
@@ -41,15 +46,34 @@ const University = () => {
             const rest = cart.filter(course=>course.id !== selecTedCourse.id);
             //exists.quantity = exists.quantity+1;
             //newCart = [exists,...rest];
+            //alert("Already Exists")
+            toast("You Already Added This Course!",{
+                position: 'top-center',
+                autoClose: 1000,
+                theme: "dark"
+            });
         }
+       }
+       else{
+            toast("You can not added more than 4!",{
+                position: 'top-center',
+                autoClose: 1000,
+                theme: "dark"
+            });
+
+       }
         
     }
     const handleCartCLearAll =()=>{
         setCart([])
         deleteShoppingCart()
     }
-    const handleCartDel =()=>{
-        
+    const handleCartDel =(selectedCourse)=>{
+        const exists = cart.find(course=>course.id==selectedCourse.id)
+        if(exists){
+            setCart(cart.filter(course=> course !=selectedCourse))
+            removeFromDb(selectedCourse.id)
+        }
     }
 
 
@@ -62,10 +86,15 @@ const University = () => {
                     course.map(un=> <Course key={un.id} handleAddCart = {handleAddCart} course={un}></Course>)
                 }
             </div>
-
             <div className='cartContainer'>
-                <Cart cart = {cart} handleCartCLearAll={handleCartCLearAll}></Cart>
+                <Cart 
+                cart = {cart} 
+                handleCartDel={handleCartDel} 
+                handleCartCLearAll={handleCartCLearAll}
+                ></Cart>
             </div>
+            <ToastContainer />
+
             
         </div>
     );
