@@ -76,11 +76,21 @@ const University = () => {
             removeFromDb(selectedCourse.id)
         }
     }
+    
     const handleCartBestSelect =()=>{
-        // const len = cart.length;
-        // setCart(Math.floor(Math.random()*len));
-        // console.log("Best select");
-        
+
+        if(cart.length==0){
+            toast("Your Cart is Empty!",{
+                position: 'top-center',
+                autoClose: 1000,
+                theme: "dark"
+            });
+            setRCart([])
+        }
+        else{
+            const ranNum = Math.floor(Math.random()*cart.length)
+            setRCart(cart[ranNum])
+        }
     }
 
 
@@ -99,6 +109,7 @@ const University = () => {
                 handleCartDel={handleCartDel} 
                 handleCartCLearAll={handleCartCLearAll}
                 handleCartBestSelect ={handleCartBestSelect}
+                bestCourse={rCart}
                 ></Cart>
             </div>
             <ToastContainer />

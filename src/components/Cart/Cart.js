@@ -7,7 +7,8 @@ const Cart = (props) => {
     const handleCartCLearAll = props.handleCartCLearAll
     const handleCartDel = props.handleCartDel
     const handleCartBestSelect =props.handleCartBestSelect
- 
+    const bestCourse=props.bestCourse;
+    // console.log(bestName);
 
     return (
         <div className='cartDetails'>
@@ -23,6 +24,10 @@ const Cart = (props) => {
             }
             <button onClick={handleCartCLearAll} className='cartBtnClear'>Clear All</button>
             <button onClick={handleCartBestSelect} className='cartBtnClear'>Best Select</button>
+            <div className='cartItems'>
+                {/* <img src={bestCourse.img} alt="" /> */}
+                <p>{bestCourse.subjectName}</p>
+            </div>
         </div>
     );
 };
